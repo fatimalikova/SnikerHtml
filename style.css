@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .card {
+    width: 320px;
+    height: 600px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.header .card .firstpart{
+    position: relative;
+    height: 285px;
+    background: linear-gradient(to right, rgb(250, 113, 71)15%, rgb(252, 102, 56)40%, rgb(245, 77, 25));
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.tittle{
+    padding: 28px;
+    
+}
+.tittle  h1{
+    letter-spacing: 1.9px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 380;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+.tittle p{
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 300;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+.header .card .firstpart .tittle h1{
+    font-size: 21px;
+    color: white;
+}
+
+.header .card .firstpart .tittle .logo .img img{
+    height: 30px;
+    margin-bottom:15px ;
+}
+
+.middle_part p{
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 135px;
+    position: relative;
+    bottom: 60px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+.secondpart {
+    padding: 28px;
+}
+
+.secondpart .head h1{
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 380;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    display: inline-block;
+}
+
+.secondpart .head p{
+    display: inline-block;
+    background-color: rgb(47, 255, 75);
+    text-align: center;
+    width: 60px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 380;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+.secondpart p{
+    font-size: 10px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 380;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+.secondpart .stars i{
+   padding-top: 12px;
+   font-size: 13px;
+}
+
+.secondpart .page_num p{
+    font-size: 14px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+.secondpart .page_num .nums ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.secondpart .page_num .nums ul li a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    justify-content: space-evenly;
+}
+.secondpart .page_num .nums ul li{
+    padding: 10px;
+}
+
+.secondpart .page_num .nums ul li:hover{
+    color: white;
+    background-color: rgb(255, 110, 66);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.secondpart .page_num .nums ul li:hover a{
+    color: white;
+}
+
+.secondpart .colours{
+    display: inline-block;
+}
+.secondpart .colours p{
+    font-size: 14px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.secondpart .colours .colours_sec{
+    padding-top: 15px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.secondpart .colours .colours_sec .red{
+    color: rgb(248, 88, 39);
+}
+
+.secondpart .colours .colours_sec .green{
+    color: rgb(10, 207, 10);
+}
+
+.secondpart .colours .colours_sec .yellow{
+    color:rgb(236, 201, 1);
+}
+
+.secondpart .price{
+    background-color: rgb(75, 255, 75);
+    border-radius: 8px;
+    width: 120px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+.secondpart .price p{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 380;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 20px;
+    color: white;
+}
+.secondpart .price h1{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 380;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 20px;
+    font-size: 20px;
+    color: white;
+}
+.last_part{
+    display: inline-block;
+    position: relative;
+    left: 57px;
+}
+
+.price:hover{
+    transform: scale(1.15);
+}
+
+
+.firstpart .sniker .image {
+  z-index: 1;
+  position: absolute;
+  top: 4px;
+  left: 80px;
+  font-size: 10px;
+  transform: rotate(0deg);}
+
+  .firstpart .sniker .image img{
+    height: 320px;
+  }
+.secondpart .colours .colours_sec .red:hover{
+    transform: scale(1.5);
+  }
+
+.secondpart .colours .colours_sec .green:hover{
+    transform: scale(1.5);
+  }
+.secondpart .colours .colours_sec .yellow:hover{
+    transform: scale(1.5);
+  }
