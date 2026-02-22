@@ -63,10 +63,10 @@
 }
 
 .middle_part p{
-    color: rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.1);
     font-size: 135px;
     position: relative;
-    bottom: 60px;
+    bottom: 68px;
     font-family: "Noto Sans", sans-serif;
     font-weight: 400;
     font-optical-sizing: auto;
