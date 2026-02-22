@@ -224,10 +224,10 @@
 .firstpart .sniker .image {
   z-index: 1;
   position: absolute;
-  top: 4px;
-  left: 80px;
+  top: -7px;
+  left: 86px;
   font-size: 10px;
-  transform: rotate(0deg);}
+  transform: rotate(3deg);}
 
   .firstpart .sniker .image img{
     height: 320px;
